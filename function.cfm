@@ -1,6 +1,6 @@
 <cffunction name="add">
-	<cfargument name="n1" type="numeric" required="true">
-	<cfargument name="n2" type="numeric">
+	<cfargument name="n1" type="numeric" required="true" default="1">
+	<cfargument name="n2" type="numeric" default="2">
 	<cfreturn n1 + n2>
 </cffunction>
 
@@ -13,4 +13,6 @@
 	<br>
 	#no1# + #no2# = #add(n2 = no2)#
 	<br>
+	<br>
+	#no1# + #no2# = #add()#
 </cfoutput>
