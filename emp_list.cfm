@@ -16,13 +16,15 @@ Senaraikan semua data dalam table employee
 </cfoutput>--->
 
 <a href="emp_form.cfm">Tambah Employee</a>
-<table border="1">
+<table class="table table-bordered table-hover table-striped">
+	<thead class="thead-dark">
 	<tr>
-		<td>Bil</td>
-		<td>Nama</td>
-		<td>Email</td>
-		<td>Tindakan</td>
+		<th>Bil</th>
+		<th>Nama</th>
+		<th>Email</th>
+		<th>Tindakan</th>
 	</tr>
+	</thead>
 	<cfset bil = 1>
 	<cfoutput query="q1">
 	<tr>

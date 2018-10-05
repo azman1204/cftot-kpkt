@@ -1,3 +1,5 @@
+<cfinclude template="header.cfm">
+
 <cfquery datasource="tutorial" name="q1">
 	SELECT * FROM employee WHERE id = #URL.id#
 </cfquery>
@@ -12,3 +14,5 @@
 		<input type="submit" value="Simpan">
 	</form>
 </cfoutput>
+
+<cfinclude template="footer.cfm">
