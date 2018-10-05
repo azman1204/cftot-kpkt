@@ -1,0 +1,31 @@
+Tech (Dev. Stack)
+------------------------
+HTML
+CSS
+ - twitter bootstrap
+
+Javascript
+ - jQuery
+
+CF
+ - CFWheels
+
+Oracle DB
+
+1. create variable
+ <cfset nama = 'azman'>
+
+2. CF Tag
+ <cfoutput>
+ <cfquery>
+ <cfdump>
+ <cflocation>
+ <cfset>
+
+3. Function
+ DateFormat()
+ DateDiff()
+ UCase()
+ StructNew()
+ ArrayNew()
+ Now()

@@ -1,3 +1,4 @@
+<cfinclude template="header.cfm">
 <!---
 ini comment dlm CF
 Senaraikan semua data dalam table employee
@@ -36,3 +37,4 @@ Senaraikan semua data dalam table employee
 	<cfset bil = bil + 1>
 	</cfoutput>
 </table>
+<cfinclude template="footer.cfm">

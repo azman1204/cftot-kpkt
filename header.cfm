@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="./asset/layout.css" type="text/css" rel="stylesheet">
 		<title>CF Tutorial</title>
 	</head>
 	<body>

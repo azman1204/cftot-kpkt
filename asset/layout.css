@@ -1,0 +1,28 @@
+body {
+	background-color:#ffc;
+}
+
+#xwrapper {
+	border: 2px solid green;
+}
+
+#xheader {
+	background-color: blue;
+	height: 100px;
+}
+
+#xmenu {
+	background-color:#000;
+	color:white;
+	height: 20px;
+}
+
+#xcontent {
+	padding: 20px;
+	min-height: 400px;
+}
+
+#xfooter {
+	background-color: blue;
+	height: 20px;
+}
