@@ -41,3 +41,12 @@ Oracle DB
  StructNew()
  ArrayNew()
  Now()
+
+4. Application.cfc
+
+
+
+
+
+
+
