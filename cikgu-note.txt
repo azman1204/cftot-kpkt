@@ -1,3 +1,34 @@
+Next Week
+---------------
+- email
+ - smtp server
+ - pop / ..
+ 
+- pdf
+- file management
+ - upload / download
+- reporting / graph
+- javascript dan jQuery
+- image manipulation
+
+
+
+Topic to cover
+-------------------
+1. session
+ $_SESSION['nama']
+
+2. if / else / switch / case
+
+3. login
+
+4. cfloop
+ - for (cfscript)
+
+5. cfscript
+ - alternatif kpd. tag 
+ - i.e <cfif ...> if ()
+
 http://jomdemy.com/cfvol2.pdf
 - buku cf vol 2
 
