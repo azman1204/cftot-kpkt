@@ -8,13 +8,14 @@ upload file / attachment
 </form>
 
 <cfif isDefined('form.doc')>
-	<cffile action="upload" destination="upload" filefield="doc">
+	<cffile action="upload" destination="upload" filefield="doc" nameconflict="overwrite">
 </cfif>
 
 <cfdirectory action="list" directory="upload" name="d1">
 <cfloop query="d1">
 	<cfoutput >
-		#d1.name#
+		<a href='upload/#d1.name#'>#d1.name#</a>
+		<a href='test2.cfm?fn=#d1.name#'>#d1.name#</a>
 		<br>
 	</cfoutput>
 </cfloop>
