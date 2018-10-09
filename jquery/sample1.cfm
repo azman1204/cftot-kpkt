@@ -21,6 +21,15 @@ rules:
  i.e p a = cari <a> yg berada di dlm <p>
  
 5. 
+
+
+FUNCTION
+- hide()
+ $('p a').hide()
+ 
+- addClass()
+
+- html()
 --->
 
 <script>
