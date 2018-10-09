@@ -30,7 +30,7 @@ rules:
 7. first, last, eq, odd, even
  i.e p:first, p:eq(3)
 
-8. :checked, :selected, :disabled, :enabled, :button, :checkboxs
+8. :checked, :selected, :disabled, :enabled, :button, :checkbox
  - utk dropdown box, checkbox, radio
 
 FUNCTION
