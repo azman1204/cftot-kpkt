@@ -9,7 +9,10 @@ Next Week
  - upload / download
  
 - reporting / graph
+ - histogram, bar, pie chart, ...
+ 
 - javascript dan jQuery
+
 - image manipulation
 
 

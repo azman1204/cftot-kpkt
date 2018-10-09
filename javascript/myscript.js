@@ -1,0 +1,1 @@
+console.log('im logging from myscript.js');
