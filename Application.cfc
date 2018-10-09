@@ -6,7 +6,6 @@ Single entry ke dalam sistem
 	<cfset this.sessionManagement = "Yes">
 	
 	<cffunction name="onRequestStart">
-		Hello
 		<cfreturn true>
 	</cffunction>
 </cfcomponent>
