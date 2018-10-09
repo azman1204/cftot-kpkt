@@ -20,8 +20,18 @@ rules:
 4. space
  i.e p a = cari <a> yg berada di dlm <p>
  
-5. 
+5. attribute
+ i.e <input name='nama'>
+ $('[name="nama"]')
+ 
+6. < =  parent
+  i.e p > a
+  
+7. first, last, eq, odd, even
+ i.e p:first, p:eq(3)
 
+8. :checked, :selected, :disabled, :enabled, :button, :checkboxs
+ - utk dropdown box, checkbox, radio
 
 FUNCTION
 - hide()

@@ -6,9 +6,28 @@
 
 <button id="show">Show all links</button>
 <button id="toggle-me">Toggle</button>
+<hr>
+Nama : <input type="text" name="nama">
+<input type='button' value="Submit">
+	
+1 <input type="checkbox" value="1">
+2 <input type="checkbox" value="2">
+<input id="btn1" type='button' value="Hantar">
 
 <script>
 $(function() {
+	$('#btn1').click(function() {
+		var el = $(':checkbox:checked');
+		$.each(el, function() {
+			alert($(this).val());
+		})
+	});
+	
+	$('[value="Submit"]').click(function() {
+		var nama = $('[name="nama"]').val();
+		alert(nama);
+	});
+	
 	// jQuery('*') = $('*')
 	$('a').hide(); // cari semua <a>, then hide
 	
