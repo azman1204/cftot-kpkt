@@ -1,4 +1,4 @@
-<cfinclude template="header.cfm">
+<cfinclude template="../header.cfm">
 
 Negeri: 
 <select id="negeri">
@@ -22,4 +22,4 @@ $(function() {
 });
 </script>
 
-<cfinclude template="footer.cfm">
+<cfinclude template="../footer.cfm">
